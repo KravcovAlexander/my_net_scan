@@ -14,17 +14,17 @@ Docker-контейнер с Python-скриптом для сканирован
 
 ## Сборка образа
 
-Скопируйте `your_script.py` и `Dockerfile` в одну папку и выполните:
+Скопируйте `main.py` и `Dockerfile` в одну папку и выполните:
 
-docker build -t my-net-scan .
+docker build -f my_net -t my-net-scan .
 
-text
+
 
 ## Запуск контейнера
 
 docker run --rm my-net-scan <ip> <логин> <пароль>
 
-text
+
 
 Пример:
 
