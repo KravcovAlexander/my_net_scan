@@ -22,13 +22,14 @@ docker build -f my_net -t my-net-scan .
 
 ## Запуск контейнера
 
-docker run --rm my-net-scan <ip> <логин> <пароль>
+docker run -it --rm my-net-scan <ip> <логин> <пароль>
 
 
 
 Пример:
 
-docker run --rm my-net-scan 192.168.1.100 admin password123
+docker run -it --rm my-net-scan 198.18.200.239 admin aiZ0ahquoo7z
+
 
 	
 ## Установленные утилиты внутри контейнера
